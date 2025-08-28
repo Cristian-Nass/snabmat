@@ -1,3 +1,5 @@
+import "@/style/navbar.css";
+
 const Navbar = () => {
   const menuItems = [
     {
