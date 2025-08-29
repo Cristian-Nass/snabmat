@@ -65,15 +65,16 @@
   white-space: nowrap; /* Prevents text from wrapping */
   overflow: visible; /* Ensure content is visible beyond the initial width */
   width: auto; /* Allow the div to expand based on content */
-  min-width: 120px;
-  background-color: #c7ecc5;
+  min-width: 80px;
+  /* background-color: #ff72bd; */
   margin: 0px 2px;
   transition: transform 0.3s ease;
+  border-radius: 20%;
 }
 
 .slidebar-wrapper .media-scroller .media-element:hover {
   transform: scale(1.07);
-  background-color: #b6d9b4;
+  background-color: #d6bee3;
   z-index: 1000;
 }
 
