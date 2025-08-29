@@ -29,7 +29,7 @@ const Navbar = () => {
           margin: 0,
           padding: 0,
           gap: "30px",
-          //   justifyContent: 'center',
+          justifyContent: "center",
           width: "100%",
         }}
       >
