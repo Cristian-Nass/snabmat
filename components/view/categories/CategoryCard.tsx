@@ -8,15 +8,6 @@ export default function CategoryCard({
 }) {
   return (
     <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        gap: "10px",
-        textAlign: "center",
-        cursor: "pointer",
-        width: "40px",
-        backgroundColor: "green",
-      }}
       onClick={() => {
         console.log(title);
       }}
@@ -25,12 +16,12 @@ export default function CategoryCard({
         <Image
           src={imgUrl}
           alt={title}
-          width={40}
-          height={40}
-          style={{ objectFit: "contain", margin: "0 auto" }}
+          width={60}
+          height={60}
+          // style={{ objectFit: "contain", margin: "0 auto" }}
         />
       )}
-      <h3 style={{ fontSize: "8px" }}>{title}</h3>
+      {/* <h3 style={{ fontSize: "8px" }}>{title}</h3> */}
     </div>
   );
 }

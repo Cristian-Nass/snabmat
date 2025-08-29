@@ -4,17 +4,17 @@ const categoriesData = [
   {
     title: "Sylt & Marmelad",
     value: "sylt-&-marmelad",
-    imgUrl: "assets/jam.svg",
+    imgUrl: "assets/marmalade.svg",
   },
   {
     title: "Te & Nabat",
     value: "te-&-nabat",
-    imgUrl: "assets/jam.svg",
+    imgUrl: "assets/tea.svg",
   },
   {
     title: "Nötter & Torkad Frukt",
     value: "notter-&-torkad-frukt",
-    imgUrl: "assets/jam.svg",
+    imgUrl: "assets/nut.svg",
   },
   {
     title: "Oliver & Inlagda grönsaker",
@@ -24,22 +24,22 @@ const categoriesData = [
   {
     title: "Torkade örter & baljväxter",
     value: "torkade-orter-&-baljvaxter",
-    imgUrl: "assets/jam.svg",
+    imgUrl: "assets/torkade.svg",
   },
   {
     title: "Ris & Reshte",
     value: "ris-&-reshte",
-    imgUrl: "assets/jam.svg",
+    imgUrl: "assets/rice.svg",
   },
   {
     title: "Dryck & Smaksättare",
     value: "dryck-&-smaksattare",
-    imgUrl: "assets/jam.svg",
+    imgUrl: "assets/soda.svg",
   },
   {
     title: "Färdiga rätter på burk",
     value: "fardiga-ratter-pa-burk",
-    imgUrl: "assets/jam.svg",
+    imgUrl: "assets/can.svg",
   },
   {
     title: "Saffran",
@@ -49,7 +49,7 @@ const categoriesData = [
   {
     title: "Korv & Pålägg",
     value: "korv-&-palagg",
-    imgUrl: "assets/jam.svg",
+    imgUrl: "assets/sausage.svg",
   },
 ];
 

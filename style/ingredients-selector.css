@@ -6,7 +6,6 @@
 .slidebar-wrapper .media-scroller {
   display: grid;
   grid-auto-flow: column;
-  overflow-x: auto;
   overscroll-behavior-inline: contain;
   width: 70%;
   max-width: 1400px;
@@ -17,7 +16,7 @@
   scrollbar-width: thin;
   -ms-overflow-style: auto;
   cursor: grab;
-  scrollbar-width: none;
+  /* scrollbar-width: none; */
   -ms-overflow-style: none;
   /* background-color: #daf3d9; */
   box-shadow: inset 10px 0 10px -10px rgba(0, 0, 0, 0.2),
@@ -66,7 +65,7 @@
   white-space: nowrap; /* Prevents text from wrapping */
   overflow: visible; /* Ensure content is visible beyond the initial width */
   width: auto; /* Allow the div to expand based on content */
-  min-width: 140px;
+  min-width: 120px;
   background-color: #c7ecc5;
   margin: 0px 2px;
   transition: transform 0.3s ease;
