@@ -4,6 +4,7 @@ interface Category {
   id: number;
   title: string;
   value: string;
+  imgUrl?: string;
 }
 
 interface CategoriesStore {

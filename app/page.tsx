@@ -1,5 +1,5 @@
+import Categories from "@/components/view/categories/Categories";
 import styles from "./page.module.css";
-import Categories from "@/components/view/Categories";
 
 export default function Home() {
   return (
