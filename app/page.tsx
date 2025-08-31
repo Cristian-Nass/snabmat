@@ -7,7 +7,7 @@ export default function Home() {
       <main className={styles.main}>
         <Categories />
         <ul>
-          <li>Welcome to Snab Mat</li>
+          <li>Welcome to Matoza</li>
           <li>Shopping made easy, fast, and secure</li>
         </ul>
       </main>

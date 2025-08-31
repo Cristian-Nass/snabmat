@@ -4,7 +4,7 @@ const Navbar = () => {
   const menuItems = [
     {
       id: 1,
-      label: "Snab Mat",
+      label: "Matoza",
     },
     {
       id: 2,

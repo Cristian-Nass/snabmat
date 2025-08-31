@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Snab Mat",
-    short_name: "Snab Mat",
+    name: "Matoza",
+    short_name: "Matoza",
     description: "Shopping made easy, fast, and secure",
     start_url: "/",
     display: "standalone",
